@@ -13,6 +13,9 @@
 		37946020243A57CF0094B151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3794601F243A57CF0094B151 /* Assets.xcassets */; };
 		37946023243A57CF0094B151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37946022243A57CF0094B151 /* Preview Assets.xcassets */; };
 		37946026243A57CF0094B151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37946024243A57CF0094B151 /* LaunchScreen.storyboard */; };
+		3794602E243A61B50094B151 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794602D243A61B50094B151 /* CameraController.swift */; };
+		37946030243A64740094B151 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794602F243A64740094B151 /* CameraViewController.swift */; };
+		37946032243A6F5C0094B151 /* PreferenceUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37946031243A6F5C0094B151 /* PreferenceUIHostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		37946022243A57CF0094B151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37946025243A57CF0094B151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37946027243A57CF0094B151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3794602D243A61B50094B151 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		3794602F243A64740094B151 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		37946031243A6F5C0094B151 /* PreferenceUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceUIHostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				37946024243A57CF0094B151 /* LaunchScreen.storyboard */,
 				37946027243A57CF0094B151 /* Info.plist */,
 				37946021243A57CF0094B151 /* Preview Content */,
+				3794602D243A61B50094B151 /* CameraController.swift */,
+				3794602F243A64740094B151 /* CameraViewController.swift */,
+				37946031243A6F5C0094B151 /* PreferenceUIHostingController.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3794601A243A57CC0094B151 /* AppDelegate.swift in Sources */,
+				37946030243A64740094B151 /* CameraViewController.swift in Sources */,
 				3794601C243A57CC0094B151 /* SceneDelegate.swift in Sources */,
+				3794602E243A61B50094B151 /* CameraController.swift in Sources */,
 				3794601E243A57CC0094B151 /* ContentView.swift in Sources */,
+				37946032243A6F5C0094B151 /* PreferenceUIHostingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +295,10 @@
 		3794602B243A57CF0094B151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-4";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Camera/Preview Content\"";
+				DEVELOPMENT_TEAM = CBH68JP7B4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,9 +315,10 @@
 		3794602C243A57CF0094B151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-4";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Camera/Preview Content\"";
+				DEVELOPMENT_TEAM = CBH68JP7B4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

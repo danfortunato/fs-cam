@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
+   var body: some View {
+    CameraViewController()
+        .edgesIgnoringSafeArea(.all)
+        .statusBar(hidden: true)
+        .prefersHomeIndicatorAutoHidden(true)
     }
 }
 
